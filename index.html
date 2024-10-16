@@ -15,7 +15,7 @@
 <meta property="og:title" content="PolyTrack - Fast-Paced Low-Poly Driving Game" />
 <meta property="og:image" content="" />
 <meta property="og:description" content="PolyTrack is an exciting driving game with loops, jumps, and high-speed action. Race against the clock on tracks built by you and the PolyTrack community!" />
-<link rel="canonical" href="http://polytrack.local" />
+<link rel="canonical" href="https://polytrack.info" />
 <!-- Require stylesheet load from local -->
 <!-- <link href="./dist/css/tailwind.min.css" rel="stylesheet"> -->
 <!-- <link href="./dist/css/fontawesome-all.min.css" rel="stylesheet"> -->
@@ -30,27 +30,8 @@
 </script>
 <!-- Required stylesheets -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
-<link href="http://polytrack.local/css/beforeafter.css" rel="stylesheet"/>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=66552af92b0bca00199fbefb&product=inline-share-buttons&source=platform" async="async"></script>
-<script
-  src="https://js.sentry-cdn.com/4f8b14f1243eafa024db60af78cb20dd.min.js"
-  crossorigin="anonymous"
-></script>
-<script>
-  Sentry.onLoad(function() {
-    Sentry.init({
-      integrations: [
-        Sentry.replayIntegration(),
-      ],
-      // Session Replay
-      replaysSessionSampleRate: 1.0, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
-      replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
-    });
-  });
-</script>
 <style>
     .dropdown-menu {
         display: none;
@@ -98,11 +79,14 @@
     });
 </script></head>
 <body>
-<div class="ezy__nav2 light py-6 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white relative">
+<div class="ezy__nav2 light py-3 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white relative">
     <nav>
         <div class="container px-4">
             <div class="flex justify-between items-center">
-                <h1><a class="font-black text-3xl" href="/">Polytrack </a></h1>
+            <h1 class="flex items-center">
+                <img src="https://src.polytrack.info/polytrack_logo.png" alt="Polytrack Logo" class="mr-2 h-12"> 
+                <a class="font-black text-3xl" href="/">Polytrack</a>
+            </h1>
                 <button class="block lg:hidden cursor-pointer h-10 z-20" type="button" id="hamburger">
                     <div class="h-0.5 w-7 bg-black dark:bg-white -translate-y-2"></div>
                     <div class="h-0.5 w-7 bg-black dark:bg-white"></div>
@@ -337,13 +321,5 @@
             }
         }
     }
-</script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-  const messages = {
-    'url_required' : 'Please enter a valid URL',
-  }
-</script>
-<script src="http://polytrack.local/js/index.js?v=6"></script>
-</body>
+</script></body>
 </html>
