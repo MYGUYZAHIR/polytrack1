@@ -17,6 +17,7 @@
 
 ### 部署项目
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=[https://github.com/yourusername/yourproject](https://github.com/niemingxing/polytrack))
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/niemingxing/polytrack)
 
 欢迎使用我的项目！点击上面的按钮即可快速部署到 Vercel。
+
