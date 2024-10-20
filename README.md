@@ -14,3 +14,9 @@
 2. **更换页面 Logo**：将上面的 Logo 图片链接替换为你自己的游戏 Logo。
 
 3. **自定义游戏介绍**：页面内容更新为你游戏的详细介绍。
+
+### 部署项目
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=[https://github.com/yourusername/yourproject](https://github.com/niemingxing/polytrack))
+
+欢迎使用我的项目！点击上面的按钮即可快速部署到 Vercel。
